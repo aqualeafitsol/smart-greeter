@@ -1,0 +1,22 @@
+@mixin black-box-bg {
+    background: #0A0D10;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+}
+@mixin input-design {
+    background: #0D191E;
+    height: 38px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+}
+@mixin textare-design {
+    background: #0D191E;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+}
+@mixin resize-textarea {
+    resize: none;
+}

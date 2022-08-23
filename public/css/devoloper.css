@@ -1,0 +1,76 @@
+.member-preview{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-height: 263px;
+  overflow-y: auto;
+}
+.multiImagePreview:first-child {
+  display: none;
+}
+.multiImagePreview {
+  width: 125px;
+  height: 125px;
+  object-fit: cover;
+  background-size: cover !important;
+  position: relative;
+  border-radius: 10px;
+  margin: 3px;
+}
+.img-delete{
+  position: absolute;
+  right: 6px;
+  top: 6px;
+}
+.img-delete .cls-img-btn {
+  height: 25px;
+  width: 25px;
+  line-height: 25px;
+  text-align: center;
+  font-size: 13px;
+  color: #fff;
+  background: rgba(0, 0, 0, .5);
+  box-shadow: 0px 0px 4px 1px rgba(255, 255, 255, .2);
+  border: none;
+  border-radius: 10px;
+  transform: scale(1);
+}
+.img-delete .cls-img-btn:hover{
+  transform: scale(1.2);
+}
+.img-slider-arrow .owl-nav .owl-prev,
+.img-slider-arrow .owl-nav .owl-next{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 25px;
+  width: 25px;
+  line-height: 25px;
+  background: #fff;
+  color: #000;
+  text-align: center;
+  font-size: 14px;
+  border-radius: 50%;
+}
+.img-slider-arrow .owl-nav .owl-prev{
+  left: 0;
+}
+.img-slider-arrow .owl-nav .owl-next{
+  right: 0;
+}
+#stickerClickModal .owl-item .item img{
+  height: 300px;
+  min-height: 300px;
+  object-fit: contain;
+}
+#stickerClickModal .modal-body {
+  padding-top: 30px;
+}
+.img-gall a{
+  display: block;
+  margin: 8px;
+}
+.img-gall a img{
+  height: 100px;
+  object-fit: cover;
+}

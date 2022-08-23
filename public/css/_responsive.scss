@@ -1,0 +1,475 @@
+@media only screen and (max-width: 2560px) {}
+
+@media only screen and (max-width: 1920px) {}
+
+@media only screen and (max-width: 1660px) {}
+
+@media only screen and (max-width: 1440px) {}
+
+@media only screen and (max-width: 1366px) {}
+
+@media only screen and (max-width: 1350px) {
+    .your-plan-wrap {
+        .col-lg-4{
+            width: 50%;
+            &:not(:last-child){
+                margin-bottom: 10px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1280px) {
+    .colka1, .colka3, .colka4, .colka2, .faq-lft, .touch-rt, .plan-colka2 {
+        display: none;
+    }
+    .home-plan-box {
+        padding: 30px;
+    }
+}
+
+@media only screen and (max-width: 1204px) {
+    .pt-100px {
+        padding-top: 30px;
+    }
+    .pb-100px {
+        padding-bottom: 30px;
+    }
+    .faq-sec {
+        padding: 30px 0;
+    }
+    .footer-sec {
+        padding: 0;
+    }
+    .pb-50px {
+        padding-bottom: 30px;
+    }
+    .pt-50px {
+        padding-top: 30px;
+    }
+    .container {
+        max-width: 100%;
+    }
+}
+
+@media only screen and (max-width: 1135px) {
+    .logo {
+        flex: 0 0 100px;
+        max-width: 100px;
+        padding: 0 15px;
+    }
+}
+
+@media only screen and (max-width: 1024px) { }
+
+@media only screen and (max-width: 1000px) {}
+
+@media only screen and (max-width: 991px) {
+    /*--nav--*/
+    header .rightPart ul {
+        display: block;
+    }
+    .menu-responsive {
+        background: none;
+        border: medium none;
+        cursor: pointer;
+        display: block;
+        float: left;
+        left: -64px;
+        padding: 9px 6px 6px;
+        z-index: 99999;
+        position: absolute;
+        top: 23px;
+    }
+    .menu-responsive:focus {
+        outline: none;
+    }
+    .menu-responsive.menu_responsiveTo {
+        background: #007cc2;
+        left: 200px;
+        top: 15px;
+    }
+    .menu-responsive span,
+    .menu_responsiveTo span {
+        background: #ffffff;
+        display: block;
+        height: 3px;
+        margin-bottom: 3px;
+        width: 37px;
+    }
+    .navigation {
+        margin: 0;
+        background: #fff;
+        display: block;
+        position: fixed !important;
+        height: 100%;
+        top: 0;
+        right: 0;
+        transition: all 300ms ease-out;
+        transform: translateX(260px);
+        width: 260px;
+        z-index: 9999;
+        text-align: left;
+        height: 100vh;
+    }
+    .navigation.left0 {
+        transform: translateX(0px);
+        box-shadow: 26px 0 22px 41px rgba(0, 0, 0, 0.5);
+    }
+    .navigation ul.d-flex {
+        width: 100%;
+        display: block !important;
+    }
+    .navigation ul ul {
+        display: none;
+        background: #000000;
+        opacity: 1;
+        visibility: visible;
+    }
+    .navigation ul li {
+        float: left;
+        width: 100%;
+        border-top: 1px solid #eee;
+        position: relative;
+    }
+    .navigation ul li a {
+        display: block;
+        padding: 15px 15px;
+        color: #000;
+        text-align: left;
+    }
+    .navigation ul li span {
+        cursor: pointer;
+        display: block;
+        height: 44px;
+        line-height: 36px;
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 50px;
+    }
+    .navArea nav ul li a {
+        line-height: 42px;
+        padding: 0 15px;
+    }
+    .navigation ul li a::after {
+        left: 5px;
+    }
+    .navigation ul li:hover ul {
+        display: none;
+    }
+    .navigation ul li ul.submenu {
+        opacity: 1;
+        visibility: visible;
+        padding: 5px 10px;
+        position: static;
+        visibility: visible;
+        transition: none;
+        width: 100%;
+        padding: 5px 0 !important;
+        box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2);
+        float: left;
+        background: #f6f6f6;
+    }
+    .navigation ul li ul.submenu li {
+        width: 100%;
+        padding: 0 9px;
+    }
+    .navigation ul li ul.submenu li img {
+        width: 18px;
+    }
+    .navigation ul li ul.submenu.aboutDd li img {
+        top: -2px;
+        width: 18px;
+    }
+    .navigation ul li.sub_menu_open span::after {
+        content: "+";
+        left: 0;
+        color: #000;
+        font-size: 30px;
+        margin: auto;
+        width: 20px;
+        height: 20px;
+        opacity: 1;
+        position: absolute;
+        right: 5px;
+        top: -15px;
+        bottom: 0;
+    }
+    .navigation ul li.sub_menu_open span.open::after {
+        content: "x";
+        font-size: 22px;
+        height: 23px;
+        width: 20px;
+    }
+    .menu_responsiveTo span {
+        opacity: 0;
+    }
+    .menu_responsiveTo:after {
+        position: absolute;
+        content: "x";
+        top: -1px;
+        left: 0;
+        right: 0;
+        margin: auto;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: normal;
+        color: #fff;
+        font-size: 21px;
+    }
+    nav ul li ul li {
+        border: none !important;
+    }
+    nav ul li.sub_menu_open i {
+        display: none !important;
+    }
+    .headerRight {
+        display: none !important;
+    }
+    .srcQuote {
+        position: fixed;
+        top: 22px;
+        right: 80px;
+    }
+    .homeBann {
+        margin-top: 0;
+    }
+    header {
+        position: fixed !important;
+    }
+    .topHeader {
+        // background: #fff;
+        padding: 10px 0;
+    }
+    .srcQuote ul li:first-child a {
+        color: #333;
+    }
+    .srcQuote ul li a {
+        font-size: 16px;
+        line-height: 48px;
+    }
+    .log-in-wrap {
+        /* width: 100%; */
+        padding: 15px 0;
+    }
+
+    // New Add Start
+    .login-area {
+        margin-right: 45px;
+    }
+    .scroll-on {
+        .menu-responsive {
+            top: 18px;
+        }
+    }
+    .banner-wrap {
+        .banner-text h2 {
+            font-size: 30px;
+        }
+    }
+    // New Add End
+    .step-wrap-list-box{
+        flex: 0 0 33% !important;
+        max-width: 33% !important;
+    }
+    .step-wrap-list-box{
+        &:first-child,
+        &:last-child{
+            border-radius: 0px !important;
+        }
+    }
+    .tab-content {
+        .row{
+            .col-12{
+                margin: 5px 0;
+            }
+        }
+    }
+    .login-area{
+        // flex: 0 0 100px;
+        // max-width: 100px;
+        .login-btn {
+            line-height: 2;
+            padding: 0 8px;
+            font-size: 13px;
+        }
+    }
+
+    // Dashboard left menu responsive
+
+    // .dasboard-res-menu {
+    //     display: block;
+    // }
+    .dasboard-res-menu{
+        display: block;
+        position: fixed;
+        top: 70px;
+        left: 15px;
+    }
+    .cls-menu{
+        display: block;
+    }
+    .col-profile-lft {
+        flex: 0 0 0;
+        max-width: 0; 
+        // flex: 0 0 35px;
+        // max-width: 35px;
+        position: relative;
+        z-index: 5;
+        padding: 0 !important;
+    }
+    // .dasb-top {
+    //     .dasboard-res-menu{
+    //         position: fixed;
+    //         top: 92px;
+    //         left: 15px;
+    //     }
+    // }
+    .profile-lft-wrap {
+        position: fixed;
+        left: 0;
+        transform: translateX(-100%);
+        transition: all .3s ease-in-out;
+        width: 350px;
+        padding: 15px;
+        height: 100%;
+        background: #0a0d10;
+        // top: 0;
+        &.open-das{
+            transform: translateX(0);
+        }
+    }
+    .noti-none {
+        display: none;
+    }
+    // .z_index {
+    //     z-index: 5;
+    // }
+    .dasb-top {
+        .profile-lft-wrap{
+            top: 66px;
+        }
+    }
+    .user-menu-list {
+        height: 360px;
+        overflow-y: auto;
+    }
+    // Dashboard left menu responsive End
+
+    .plan-product {
+        margin-top: 8px;
+    }
+}
+
+@media only screen and (max-width :960px) {}
+
+@media only screen and (max-width :910px) {}
+
+@media only screen and (max-width: 900px) {}
+
+@media only screen and (max-width: 885px) {}
+
+@media only screen and (max-width: 880px) {}
+
+@media only screen and (max-width: 800px) {}
+
+@media only screen and (max-width: 768px) {
+    .step-wrap-list-box{
+        flex: 0 0 50% !important;
+        max-width: 50% !important;
+    }
+    .step-wrap-list-box{
+        &:not(:last-child){
+            &::after{
+                display: none;
+            }
+        }
+    }
+    .default-sec-head {
+        h3 {
+            font-size: 25px;
+        }
+        p{
+            font-size: 15px;
+        }
+    }
+    .log-create-main-wrap {
+        .log-create-box {
+            margin: 0 20px;
+        }
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .banner-img {
+        display: none;
+    }
+    .banner-wrap {
+        .banner-text{
+            text-align: center;
+        }
+        .banner-social{
+            justify-content: center;
+        }
+        .custom-btn-wrap {
+            text-align: center;
+        }
+    }
+    .edit-profile-wrap{
+        margin-bottom: 15px;
+    }
+    .pay-product-box {
+        + {
+            .pay-product-box {
+                margin-bottom: 20px;
+            }
+        }
+    }
+    .step-text {
+        font-size: 13px;
+    }
+    
+}
+
+@media only screen and (max-width: 736px) {}
+
+@media only screen and (max-width: 667px) {
+    .default-sec-head h3 {
+        font-size: 20px;
+    } 
+    .default-sec-head-white h3 {
+        font-size: 20px;
+        margin: 0;
+    }
+}
+
+@media only screen and (max-width: 600px) {}
+
+@media only screen and (max-width: 575px) {
+    .step-wrap-list-box{
+        flex: 0 0 100% !important;
+        max-width: 100% !important;
+    }
+    .your-plan-wrap .col-lg-4 {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 545px) {
+    .menu-responsive span,
+    .menu_responsiveTo span {
+        width: 30px;
+    }
+}
+
+@media only screen and (max-width: 480px) {}
+
+@media only screen and (max-width: 414px) {}
+
+@media only screen and (max-width: 384px) {}
+
+@media only screen and (max-width: 375px) {}
+
+@media only screen and (max-width: 320px) {}
+
+@media only screen and (max-width: 240px) {}

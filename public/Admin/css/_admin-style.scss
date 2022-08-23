@@ -1,0 +1,82 @@
+.status-box{
+    .status-list{
+        li{
+            color: #ababab;
+            text-align: left;
+            position: relative;
+            padding-left: 15px;
+            &.type-sticker-active{
+                &::before{
+                    background: #04e304;
+                }
+                &:hover{
+                    color: #04e304;
+                    text-decoration: underline;
+                }
+            }
+            &.type-sticker-deactive{
+                &::before{
+                    background: #E80054; 
+                }
+                &:hover{
+                    color: #E80054;
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+    &.sticker-active{
+        background: #04e304 !important;
+    }
+    &.sticker-deactive{
+        background: #E80054 !important;
+    }
+}
+.page-modal{
+    .modal-content{
+        background: #0e3a48;
+    }
+    .btn-close{
+        position: absolute;
+        right: 6px;
+        top: 3px;
+        padding: 0;
+        margin: 0;
+        background-image: none;
+        color: #E80054;
+        opacity: 1;
+        font-size: 19px;
+        z-index: 1;
+    }
+}
+.qrcode-show-wrap{
+    .qrcode-show {
+        display: block;
+        max-width: 250px;
+        margin: 0 auto 20px;
+        img{
+            border: 7px solid #1dcdfe;
+        }
+    }
+    .qrcode-download{
+        display: inline-block;
+        background: #1DCDFE;
+        border-radius: 5px;
+        font-weight: 500;
+        font-size: 18px;
+        color: #020202;
+        line-height: 2.5;
+        padding: 0 20px;
+        text-transform: capitalize;
+    }
+}
+.disable-btn {
+    cursor: not-allowed;
+    opacity: 0.5;
+    pointer-events: none;
+}
+.deactive-list{
+    td {
+        background: rgba(59, 60, 60, 0.58) !important;
+    }
+}

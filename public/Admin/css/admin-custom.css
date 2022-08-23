@@ -1,0 +1,105 @@
+table.dataTable {
+    width: 100% !important;
+}
+
+.admin-frm .card {
+    background: #0A0D10;
+    border-radius: 20px;
+}
+
+.admin-frm .card .card-title {
+    padding-bottom: 0;
+    color: #fff;
+    font-size: 22px;
+}
+
+.admin-frm .card .card-body {
+    padding-top: 0;
+    color: #fff;
+}
+
+.admin-frm .card .card-body label {
+    padding-bottom: 5px;
+    color: rgba(255, 255, 255, 0.53);
+}
+
+.admin-frm .card .card-body .form-group {
+    margin-bottom: 10px;
+}
+
+.admin-frm .table>thead th {
+    color: #fff;
+    border-bottom: none;
+}
+
+.admin-frm .cke_top {
+    background: #e9e9e9;
+}
+
+.admin-frm .card .card-body .form-group {
+    margin-bottom: 10px;
+}
+
+.ftr-save-btn {
+    height: 41px;
+    background: #1DCDFE;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 18px;
+    color: #020202;
+    box-shadow: none;
+    outline: none;
+    border: none;
+}
+
+.ftr-save-btn:hover {
+    background: #1DCDFE;
+    color: #020202;
+}
+
+.admin-frm .dataTables_wrapper .dataTables_length select,
+.admin-frm .dataTables_wrapper .dataTables_filter input {
+    color: #fff;
+}
+
+.admin-frm .data-table {
+    margin-bottom: 15px;
+}
+
+.admin-frm .data-table tbody tr {
+    background-color: transparent;
+}
+
+.admin-frm .data-table tbody tr:nth-child(odd) td {
+    background: #0A2832;
+}
+
+.admin-frm .data-table tbody tr:nth-child(even) td {
+    background: #0A0D10;
+}
+
+.admin-frm .data-table tbody td:first-child {
+    border-radius: 10px 0 0 10px;
+}
+
+.admin-frm .data-table tbody td:last-child {
+    border-radius: 0 10px 10px 0;
+}
+
+.admin-frm .data-table tbody tr td {
+    color: #fff;
+}
+
+.admin-frm .data-table tbody tr td a.edtBtn {
+    color: #fff;
+}
+
+.admin-frm .dataTables_wrapper .dataTables_paginate .paginate_button.current,
+.admin-frm .dataTables_wrapper .dataTables_paginate .paginate_button.current:hover {
+    background: #0D191E;
+    color: #fff !important;
+}
+
+.admin-frm .dataTables_wrapper .dataTables_processing {
+    background: transparent !important;
+}
